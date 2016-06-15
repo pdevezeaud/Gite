@@ -1,0 +1,26 @@
+
+gestion_gites:
+    path:     /gite
+    defaults: { _controller:GestionGitesBundle:Gite:gite}
+
+gestion_gestionnaire:
+    path:     /gestionnaire
+    defaults: { _controller:GestionGitesBundle:Gestionnaire:gestionnaire}
+
+gestion_chambre:
+    path:     /chambre
+    defaults: { _controller:GestionGitesBundle:Chambre:chambre}
+
+gestion_client:
+    path:     /client
+    defaults: { _controller:GestionGitesBundle:Client:client}
+
+gestion_reservation:
+    path:     /reservation
+    defaults: { _controller:GestionGitesBundle:Reservation:reservation}
+
+gestion_ajoutClient:
+    path:     /client/ajout
+    defaults: { _controller:GestionGitesBundle:Clientajout:ajout}
+
+

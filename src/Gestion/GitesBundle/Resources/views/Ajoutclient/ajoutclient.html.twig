@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<h1>Ajout CLient</h1>
+
+
+{{ form_start(form) }}
+
+{{ form_label(form.nom)}}:{{ form_widget(form.nom) }} <br />
+{{ form_label(form.prenom)}}:{{ form_widget(form.prenom)}} <br />
+{{ form_label(form.tel)}}:{{ form_widget(form.tel) }} <br />
+{{ form_label(form.email)}}:{{ form_widget(form.email) }} <br />
+{{ form_end(form) }}
+
+{{ form_rest(form) }}
+
+
+{% endblock %}

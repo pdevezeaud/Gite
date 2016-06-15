@@ -1,0 +1,5 @@
+gestion_gites:
+    resource: "@GestionGitesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
